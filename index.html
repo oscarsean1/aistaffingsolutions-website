@@ -474,6 +474,16 @@
     .pc3-list li:last-child { border-bottom: none; }
     .pc3-list li::before { content: ''; display: block; width: 3px; height: 3px; background: var(--gold); border-radius: 50%; flex-shrink: 0; margin-top: 7px; }
     .audit-strip { border: 1px solid rgba(255,255,255,.08); border-top: none; padding: 22px 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; background: rgba(255,255,255,.02); }
+    .hero-demo { margin-top: 20px; }
+    .hero-demo-link {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 12px; font-weight: 400; letter-spacing: .04em;
+      color: rgba(255,255,255,.65); text-decoration: none;
+      border-bottom: 1px solid rgba(255,255,255,.2); padding-bottom: 2px;
+      transition: color .2s, border-color .2s;
+    }
+    .hero-demo-link strong { color: #fff; font-weight: 500; }
+    .hero-demo-link:hover { color: rgba(255,255,255,.9); border-color: rgba(255,255,255,.5); }
     .demo-call-btn {
       display: inline-flex; align-items: center; gap: 12px;
       padding: 16px 32px; background: var(--ink); color: #fff;
@@ -756,6 +766,12 @@
       <a href="#" class="btn-white" data-book>Book a Free Call</a>
       <a href="#how" class="btn-outline-white">How It Works</a>
     </div>
+    <div class="hero-demo r" style="transition-delay:.25s">
+      <a href="tel:+353402576870" class="hero-demo-link">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+        Don't take our word for it — call <strong>0402 57 687</strong> right now
+      </a>
+    </div>
   </div>
 
   <div class="hero-stats">
@@ -906,10 +922,10 @@
   <div class="full-bleed-scrim-uniform"></div>
   <div class="full-bleed-content centre r">
     <div>
-      <div class="fb-label">Our Promise</div>
+      <div class="fb-label">What We Do</div>
       <h2 class="fb-title" style="text-align:center;max-width:720px;margin:0 auto">
-        "You're already getting the calls.<br/>
-        <em>This makes sure none of them go to waste.</em>"
+        You're already getting the calls.<br/>
+        <em>This makes sure none of them go to waste.</em>
       </h2>
     </div>
   </div>
@@ -1042,8 +1058,15 @@
   <div class="full-bleed-content r">
     <div>
       <div class="fb-label">Get Started</div>
-      <h2 class="fb-title" style="margin-bottom:24px">Live in your business<br/><em>within 72 hours.</em></h2>
-      <a href="#" class="btn-white" data-book>Book a Free Call</a>
+      <h2 class="fb-title" style="margin-bottom:12px">Live in your business<br/><em>within 72 hours.</em></h2>
+      <p style="font-size:12px;color:rgba(255,255,255,.45);margin-bottom:24px;letter-spacing:.04em">We onboard a limited number of new clients each month.</p>
+      <div style="display:flex;gap:16px;flex-wrap:wrap;align-items:center">
+        <a href="#" class="btn-white" data-book>Book a Free Call</a>
+        <a href="https://wa.me/353874099266" target="_blank" rel="noopener" class="btn-outline-white" style="display:inline-flex;align-items:center;gap:8px">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Message on WhatsApp
+        </a>
+      </div>
     </div>
   </div>
 </div>
@@ -1052,64 +1075,69 @@
 <!-- ═══════════ 12. PRICING (dark) ═══════════ -->
 <section id="pricing">
   <div class="s-label r">Pricing</div>
-  <h2 class="s-title r" style="transition-delay:.05s">Start today.<br/><em>Pay as you grow.</em></h2>
-  <p class="s-body r" style="transition-delay:.1s">Half price first month. Free website included. One week's notice to cancel — no penalties, no lock-in.</p>
+  <h2 class="s-title r" style="transition-delay:.05s">Simple,<br/><em>transparent pricing.</em></h2>
+  <p class="s-body r" style="transition-delay:.1s">€400 setup fee. First month free. One week's notice to cancel — no penalties, no lock-in.</p>
 
   <div class="price-grid-3 r" style="transition-delay:.15s">
 
-    <!-- Card 1: AI Receptionist -->
-    <div class="pc3 feat">
-      <div class="pc3-badge">Most Popular</div>
-      <div class="pc3-name">AI Receptionist</div>
-      <div class="pc3-amt">€600–€2,000</div>
-      <div class="pc3-per">per month · based on your business</div>
-      <div class="pc3-note">€400 setup fee. First month free. Free professional website included. One week's notice to cancel.</div>
+    <!-- Starter -->
+    <div class="pc3">
+      <div class="pc3-name">Starter</div>
+      <div class="pc3-amt">€600</div>
+      <div class="pc3-per">per month</div>
+      <div class="pc3-note">For small businesses and sole traders handling moderate call volumes.</div>
       <ul class="pc3-list">
         <li>24/7 inbound AI receptionist</li>
         <li>Answers every call in under 2 seconds</li>
         <li>Appointment booking &amp; calendar sync</li>
-        <li>Email &amp; SMS confirmation automation</li>
-        <li>Lead capture &amp; follow-up sequences</li>
-        <li>FAQ handling &amp; review requests</li>
-        <li>Live in 72 hours · 1 week notice to cancel</li>
-      </ul>
-      <a href="#" class="btn-white" data-book>Get Started</a>
-    </div>
-
-    <!-- Card 2: Website Build -->
-    <div class="pc3">
-      <div class="pc3-name">Website Build</div>
-      <div class="pc3-amt">€500–€1,000</div>
-      <div class="pc3-per">one-off payment</div>
-      <div class="pc3-note">Included free when you sign up to the AI Receptionist.</div>
-      <ul class="pc3-list">
-        <li>Fully custom professional design</li>
-        <li>Mobile responsive &amp; fast-loading</li>
-        <li>SEO-optimised from day one</li>
-        <li>Contact forms &amp; booking integration</li>
-        <li>GDPR compliant &amp; secure</li>
-        <li>Delivered within 7 days</li>
-      </ul>
-      <a href="#" class="btn-outline-white" data-book>Book a Call</a>
-    </div>
-
-    <!-- Card 3: Website Chatbot -->
-    <div class="pc3">
-      <div class="pc3-name">Website Chatbot</div>
-      <div class="pc3-amt">€10</div>
-      <div class="pc3-per">per week</div>
-      <div class="pc3-note">Add to any existing website. No rebuild needed.</div>
-      <ul class="pc3-list">
-        <li>AI chatbot on your website 24/7</li>
-        <li>Answers visitor questions instantly</li>
-        <li>Captures leads &amp; contact details</li>
-        <li>Hands off to phone agent when needed</li>
-        <li>Fully branded to your business</li>
-        <li>Setup included · cancel any time</li>
+        <li>Email confirmation automation</li>
+        <li>Basic FAQ handling</li>
+        <li>Live in 72 hours</li>
       </ul>
       <a href="#" class="btn-outline-white" data-book>Get Started</a>
     </div>
 
+    <!-- Growth -->
+    <div class="pc3 feat">
+      <div class="pc3-badge">Most Popular</div>
+      <div class="pc3-name">Growth</div>
+      <div class="pc3-amt">€800</div>
+      <div class="pc3-per">per month</div>
+      <div class="pc3-note">For growing businesses that need full automation across calls and follow-up.</div>
+      <ul class="pc3-list">
+        <li>Everything in Starter</li>
+        <li>SMS &amp; email confirmation automation</li>
+        <li>Lead capture &amp; follow-up sequences</li>
+        <li>Review request automation</li>
+        <li>Call summary reports</li>
+        <li>Priority setup support</li>
+      </ul>
+      <a href="#" class="btn-white" data-book>Get Started</a>
+    </div>
+
+    <!-- Pro -->
+    <div class="pc3">
+      <div class="pc3-name">Pro</div>
+      <div class="pc3-amt">€1,200</div>
+      <div class="pc3-per">per month</div>
+      <div class="pc3-note">For high-volume businesses and multi-location operations.</div>
+      <ul class="pc3-list">
+        <li>Everything in Growth</li>
+        <li>Multi-location support</li>
+        <li>Custom integrations &amp; CRM sync</li>
+        <li>Advanced call routing</li>
+        <li>Dedicated account manager</li>
+        <li>Monthly performance review</li>
+      </ul>
+      <a href="#" class="btn-outline-white" data-book>Get Started</a>
+    </div>
+
+  </div>
+
+  <!-- Add-ons -->
+  <div class="audit-strip r" style="transition-delay:.2s;margin-top:3px">
+    <span class="audit-strip-text"><strong>Add-ons:</strong> Website Build €500–€1,000 one-off (free with any plan) · Website Chatbot €10/week</span>
+    <a href="#" data-book>Talk to us &nbsp;&#8594;</a>
   </div>
 
   <div class="audit-strip r" style="transition-delay:.25s">
