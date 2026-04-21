@@ -474,6 +474,13 @@
     .pc3-list li:last-child { border-bottom: none; }
     .pc3-list li::before { content: ''; display: block; width: 3px; height: 3px; background: var(--gold); border-radius: 50%; flex-shrink: 0; margin-top: 7px; }
     .audit-strip { border: 1px solid rgba(255,255,255,.08); border-top: none; padding: 22px 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; background: rgba(255,255,255,.02); }
+    .demo-call-btn {
+      display: inline-flex; align-items: center; gap: 12px;
+      padding: 16px 32px; background: var(--ink); color: #fff;
+      font-size: 18px; font-weight: 400; letter-spacing: .04em;
+      text-decoration: none; transition: background .25s;
+    }
+    .demo-call-btn:hover { background: var(--ink2); }
     .audit-strip-text { font-size: 13px; color: rgba(255,255,255,.45); font-weight: 300; }
     .audit-strip-text strong { color: rgba(255,255,255,.75); font-weight: 500; }
     .audit-strip a { font-size: 10px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); text-decoration: none; border-bottom: 1px solid rgba(23,195,178,.35); padding-bottom: 2px; transition: border-color .2s; white-space: nowrap; }
@@ -703,7 +710,7 @@
 <nav id="nav">
   <a href="#" class="nav-logo">
     <span class="nav-logo-text">AI Staffing Solutions</span>
-    <img src="../large logo.jpg" alt="AI Staffing Solutions" class="nav-logo-full" />
+    <img src="large-logo.jpg" alt="AI Staffing Solutions" class="nav-logo-full" />
   </a>
   <div class="nav-links">
     <a href="#results">Results</a>
@@ -763,23 +770,21 @@
 <div class="ticker">
   <div class="ticker-t">
     <span class="ti">99.2% Answer Rate</span><span class="ts">◆</span>
-    <span class="ti">Under 2 Seconds</span><span class="ts">◆</span>
-    <span class="ti">250,000+ Calls</span><span class="ts">◆</span>
-    <span class="ti">92% Retention</span><span class="ts">◆</span>
-    <span class="ti">100+ Businesses</span><span class="ts">◆</span>
+    <span class="ti">Under 2 Seconds Response</span><span class="ts">◆</span>
+    <span class="ti">250,000+ Calls Handled</span><span class="ts">◆</span>
+    <span class="ti">92% Client Retention</span><span class="ts">◆</span>
+    <span class="ti">100+ Irish Businesses</span><span class="ts">◆</span>
     <span class="ti">Live in 72 Hours</span><span class="ts">◆</span>
+    <span class="ti">3–6× ROI in 90 Days</span><span class="ts">◆</span>
     <span class="ti">GDPR Compliant</span><span class="ts">◆</span>
-    <span class="ti">Any Language</span><span class="ts">◆</span>
-    <span class="ti">No Sick Days</span><span class="ts">◆</span>
     <span class="ti">99.2% Answer Rate</span><span class="ts">◆</span>
-    <span class="ti">Under 2 Seconds</span><span class="ts">◆</span>
-    <span class="ti">250,000+ Calls</span><span class="ts">◆</span>
-    <span class="ti">92% Retention</span><span class="ts">◆</span>
-    <span class="ti">100+ Businesses</span><span class="ts">◆</span>
+    <span class="ti">Under 2 Seconds Response</span><span class="ts">◆</span>
+    <span class="ti">250,000+ Calls Handled</span><span class="ts">◆</span>
+    <span class="ti">92% Client Retention</span><span class="ts">◆</span>
+    <span class="ti">100+ Irish Businesses</span><span class="ts">◆</span>
     <span class="ti">Live in 72 Hours</span><span class="ts">◆</span>
+    <span class="ti">3–6× ROI in 90 Days</span><span class="ts">◆</span>
     <span class="ti">GDPR Compliant</span><span class="ts">◆</span>
-    <span class="ti">Any Language</span><span class="ts">◆</span>
-    <span class="ti">No Sick Days</span><span class="ts">◆</span>
   </div>
 </div>
 
@@ -872,7 +877,30 @@
   </div>
 </div>
 
-<!-- ═══════════ 5. FULL-BLEED quote break ═══════════ -->
+<!-- ═══════════ 5. LIVE DEMO ═══════════ -->
+<div class="panel panel-right" style="background:var(--off)">
+  <div class="panel-text r">
+    <div class="label gold">Hear It Live</div>
+    <h2 class="serif-title">Call the AI.<br/><em>Right now.</em></h2>
+    <p class="body-text" style="margin-bottom:8px">This is the actual AI agent — not a recording, not a demo environment. Call the number below and speak to it exactly as a customer would.</p>
+    <p class="body-text" style="margin-bottom:32px">It handles enquiries, books appointments, answers questions, and captures your details — in under 2 seconds from pickup.</p>
+    <a href="tel:+353402576870" class="demo-call-btn">
+      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+      <span>0402 57 687</span>
+    </a>
+    <p style="font-size:11px;color:var(--ink4);margin-top:14px;letter-spacing:.04em">Free call · works from any Irish mobile or landline</p>
+  </div>
+  <div class="panel-img r" style="transition-delay:.15s;background:var(--ink);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:24px;padding:64px 48px">
+    <div style="text-align:center">
+      <div style="font-family:var(--serif);font-size:clamp(36px,5vw,64px);font-weight:300;color:#fff;letter-spacing:-.01em;line-height:1">0402 57 687</div>
+      <div style="font-size:10px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-top:14px">Live AI Demo Line</div>
+    </div>
+    <div style="width:48px;height:1px;background:rgba(255,255,255,.15)"></div>
+    <p style="font-size:12px;color:rgba(255,255,255,.4);text-align:center;font-weight:300;max-width:220px;line-height:1.7">Available 24/7 · answers in under 2 seconds</p>
+  </div>
+</div>
+
+<!-- ═══════════ 6. FULL-BLEED quote break ═══════════ -->
 <div class="full-bleed">
   <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1920&q=85" alt="" loading="lazy" />
   <div class="full-bleed-scrim-uniform"></div>
@@ -902,7 +930,6 @@
         <div class="three-card-metrics">
           <div class="tcm"><span class="tcm-l">Answer rate</span><span class="tcm-v pos">65% → 96%</span></div>
           <div class="tcm"><span class="tcm-l">Booked jobs</span><span class="tcm-v pos">+41%</span></div>
-          <div class="tcm"><span class="tcm-l">Monthly revenue added</span><span class="tcm-v hi">Significant uplift</span></div>
           <div class="tcm"><span class="tcm-l">ROI</span><span class="tcm-v pos">3.8× in 60 days</span></div>
         </div>
       </div>
@@ -942,7 +969,6 @@
       <div class="three-card-metrics">
         <div class="tcm"><span class="tcm-l">Call coverage</span><span class="tcm-v pos">100%</span></div>
         <div class="tcm"><span class="tcm-l">Qualified viewings</span><span class="tcm-v pos">+29%</span></div>
-        <div class="tcm"><span class="tcm-l">Pipeline added</span><span class="tcm-v hi">Substantial growth</span></div>
       </div>
     </div>
   </div>
@@ -981,11 +1007,6 @@
 
 </div>
 
-<!-- ═══════════ 8. PULL QUOTE ═══════════ -->
-<div class="pull-quote r">
-  <p class="pq">"Most businesses already have the demand. They're just <em>missing a portion of it.</em>"</p>
-  <p class="pq-attr">— Sean Alfred, Founder · AI Staffing Solutions</p>
-</div>
 
 <!-- ═══════════ 9. PANEL — text left, image right ═══════════ -->
 <!-- Industries -->
@@ -1027,59 +1048,6 @@
   </div>
 </div>
 
-<!-- ═══════════ 11. TESTIMONIALS ═══════════ -->
-<section id="testimonials">
-  <div class="test-wrap">
-    <div class="test-header r">
-      <div>
-        <div class="label gold" style="margin-bottom:10px">Testimonials</div>
-        <h2 class="serif-title">What our clients say.</h2>
-      </div>
-      <div style="text-align:right">
-        <div style="font-size:15px;color:var(--gold);letter-spacing:.06em">★★★★★</div>
-        <div style="font-size:10.5px;color:var(--ink4);margin-top:4px;letter-spacing:.06em">4.5 average · aistaffingsolutions.net</div>
-      </div>
-    </div>
-    <div class="test-grid r" style="transition-delay:.1s">
-      <div class="test-card">
-        <div class="test-avatar">M</div>
-        <div class="test-stars"><span></span><span></span><span></span><span></span><span></span></div>
-        <p class="test-q">"Before this, we were missing loads of calls every day. Now everything gets answered instantly and we're booking more jobs without doing anything extra — it's been a game changer."</p>
-        <div class="test-footer"><div class="test-name">Mark D.</div><div class="test-role">Owner · Dublin Plumbing &amp; Heating</div></div>
-      </div>
-      <div class="test-card">
-        <div class="test-avatar">S</div>
-        <div class="test-stars"><span></span><span></span><span></span><span></span><span></span></div>
-        <p class="test-q">"Our reception was constantly overwhelmed. Since setting this up, bookings have gone up and the pressure on our team has dropped massively."</p>
-        <div class="test-footer"><div class="test-name">Sarah K.</div><div class="test-role">Practice Manager · Smiles Dental Clinic</div></div>
-      </div>
-      <div class="test-card">
-        <div class="test-avatar">J</div>
-        <div class="test-stars"><span></span><span></span><span></span><span></span><span></span></div>
-        <p class="test-q">"Speed is everything in our business. This made sure we never miss a lead, and we've definitely seen more viewings being booked because of it."</p>
-        <div class="test-footer"><div class="test-name">James O.</div><div class="test-role">Senior Agent · Leinster Property Group</div></div>
-      </div>
-      <div class="test-card">
-        <div class="test-avatar">C</div>
-        <div class="test-stars"><span></span><span></span><span></span><span></span><span></span></div>
-        <p class="test-q">"We used to miss calls during classes all the time. Now every enquiry gets handled and trial bookings have gone up without us needing more staff."</p>
-        <div class="test-footer"><div class="test-name">Chloe M.</div><div class="test-role">Owner · Evolve Fitness Studio</div></div>
-      </div>
-      <div class="test-card">
-        <div class="test-avatar">D</div>
-        <div class="test-stars"><span></span><span></span><span></span><span></span><span></span></div>
-        <p class="test-q">"A lot of our best clients come in after hours. This made sure we're capturing those enquiries instead of losing them — it's been a huge win."</p>
-        <div class="test-footer"><div class="test-name">David B.</div><div class="test-role">Partner · Brennan &amp; Associates Solicitors</div></div>
-      </div>
-      <div class="test-card">
-        <div class="test-avatar">E</div>
-        <div class="test-stars"><span></span><span></span><span></span><span></span><span></span></div>
-        <p class="test-q">"It just works in the background. Calls get answered, jobs get booked, and we don't have to worry about it."</p>
-        <div class="test-footer"><div class="test-name">Emma R.</div><div class="test-role">Director · Pristine Cleaning Services</div></div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- ═══════════ 12. PRICING (dark) ═══════════ -->
 <section id="pricing">
@@ -1093,7 +1061,9 @@
     <div class="pc3 feat">
       <div class="pc3-badge">Most Popular</div>
       <div class="pc3-name">AI Receptionist</div>
-      <div class="pc3-note">Half price first month. Free professional website included. One week's notice to cancel.</div>
+      <div class="pc3-amt">€600–€2,000</div>
+      <div class="pc3-per">per month · based on your business</div>
+      <div class="pc3-note">€400 setup fee. First month free. Free professional website included. One week's notice to cancel.</div>
       <ul class="pc3-list">
         <li>24/7 inbound AI receptionist</li>
         <li>Answers every call in under 2 seconds</li>
@@ -1109,6 +1079,8 @@
     <!-- Card 2: Website Build -->
     <div class="pc3">
       <div class="pc3-name">Website Build</div>
+      <div class="pc3-amt">€500–€1,000</div>
+      <div class="pc3-per">one-off payment</div>
       <div class="pc3-note">Included free when you sign up to the AI Receptionist.</div>
       <ul class="pc3-list">
         <li>Fully custom professional design</li>
@@ -1124,6 +1096,8 @@
     <!-- Card 3: Website Chatbot -->
     <div class="pc3">
       <div class="pc3-name">Website Chatbot</div>
+      <div class="pc3-amt">€10</div>
+      <div class="pc3-per">per week</div>
       <div class="pc3-note">Add to any existing website. No rebuild needed.</div>
       <ul class="pc3-list">
         <li>AI chatbot on your website 24/7</li>
@@ -1211,7 +1185,7 @@
 <footer>
   <div class="foot-top">
     <div class="foot-brand">
-      <img src="../large logo.jpg" alt="AI Staffing Solutions" class="foot-logo-img" />
+      <img src="large-logo.jpg" alt="AI Staffing Solutions" class="foot-logo-img" />
       <p class="foot-tagline">Ireland's AI receptionist. Answers every call, captures every lead, 24 hours a day.</p>
     </div>
     <div class="foot-cols">
@@ -1239,8 +1213,8 @@
   <div class="foot-bottom">
     <p class="foot-copy">© 2026 AI Staffing Solutions · GDPR Compliant · Data stored in Ireland</p>
     <div class="foot-legal">
-      <a href="#">Privacy Policy</a>
-      <a href="#">Terms of Service</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
     </div>
   </div>
 </footer>
